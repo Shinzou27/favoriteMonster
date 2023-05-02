@@ -13,6 +13,7 @@ function NewMonsterCard({ seed, array }) {
     function vote(monster) {
         monster.currentPoints++
         setDuel(true)
+        console.log(seed.length)
     }
     useEffect(() => {
         if (duel == true) {
