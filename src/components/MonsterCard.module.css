@@ -1,0 +1,27 @@
+.monsterContainer {
+    margin: 0 4em;
+}
+.container {
+    flex-direction : row;
+    display : flex;
+    margin: 0 4em;
+    font-size: 1.3em;
+}
+.container h3 {
+    font-size: 2em;
+}
+.container img {
+    width: 256px;
+    height: 256px;
+}
+
+.voteButton {
+    font-size: 2em;
+    color: #6c6c6c;
+    outline: 1px solid #f5f5dc;
+    font-weight: lighter;
+}
+.voteButton:hover {
+    transition: 0.5s;
+    background-color: rgb(255, 255, 255);
+}

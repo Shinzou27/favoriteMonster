@@ -1,0 +1,47 @@
+.podium {
+    font-size: 2em;
+    margin: 0em 5em;
+}
+
+.podium img {
+    width: 128px;
+}
+
+.firstPlace {
+    font-size: 1.5em;
+    background-color: gold;
+    border-radius: 5%;
+}
+
+.secondPlace,
+.thirdPlace {
+    font-size: 1em;
+    border-radius: 5%;
+}
+
+.secondPlace {
+    background-color: silver;
+}
+
+.thirdPlace {
+    background-color: rgb(99, 44, 7);
+}
+
+.others h4 {
+    width: 400px;
+}
+.others p {
+    margin-bottom: -50px;
+}
+.others img {
+    width: 64px;
+}
+.others {
+    font-size: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
